@@ -4,7 +4,7 @@
 
 ### **Overview**
 
-ip-hacker is an advanced OSINT tool tailored for Discord, enabling cyber investigators, security researchers, and enthusiasts to gather in-depth data on target IP addresses. By integrating a broad spectrum of utilities into one platform, this bot provides real-time insights into an IP's geolocation, associated services, potential security threats, and more. Its foundation lies in its ability to seamlessly interact with the user, combining convenience and data-driven decision-making into one unified experience. Provide data from many sources and even provides links to possible open ports to help further your investigation.
+ip-hacker is an advanced OSINT tool tailored for Matrix, enabling cyber investigators, security researchers, and enthusiasts to gather in-depth data on target IP addresses. By integrating a broad spectrum of utilities into one platform, this bot provides real-time insights into an IP's geolocation, associated services, potential security threats, and more. Its foundation lies in its ability to seamlessly interact with the user, combining convenience and data-driven decision-making into one unified experience. Provide data from many sources and even provides links to possible open ports to help further your investigation.
 
 ---
 
@@ -25,7 +25,7 @@ ip-hacker is an advanced OSINT tool tailored for Discord, enabling cyber investi
 **Clone the Repository**:
 
 ```bash
-git clone https://github.com/RocketGod-git/ip-hacker.git
+git clone https://github.com/neednotapply/ip-hacker.git
 cd ip-hacker
 ```
 
@@ -79,7 +79,7 @@ Update `config.json`:
 
 ```json
 {
-    "TOKEN": "YOUR DISCORD BOT TOKEN HERE",
+    "TOKEN": "YOUR MATRIX BOT TOKEN HERE",
     "SHODAN_KEY": "YOUR SHODAN API KEY HERE",
     "VIRUSTOTAL_API_KEY": "YOUR VIRUSTOTAL API KEY HERE"
 }
@@ -131,7 +131,7 @@ python3 main.py
 
 ### **Benefits of Team-Based OSINT**
 
-Utilizing `ip-hacker` in a team setting on Discord offers:
+Utilizing `ip-hacker` in a team setting on Matrix offers:
 
 1. **Real-time Sharing**: Share data instantly.
 2. **Collaborative Analysis**: Multiple perspectives offer deeper insights.
